@@ -129,7 +129,7 @@
 
 @media screen and (min-width:562px)  and (max-width:856px)  {
   .main_div {
-     padding-left: 150px;
+     padding-left: 5px;
      flex-direction: column;
      width:100%;
      height:100%;
@@ -156,8 +156,7 @@
 .img_style{
     width:10%;
     height:2.5%;
-    padding-top:5px;
-    padding-top: 10px;
+    padding-top: 20px;
     z-index:2;
     margin-top: 10px;
 }
@@ -173,15 +172,20 @@
 .side_div{
     margin-left: 50px;
     margin-top:0 px;
-    width:40%;
+    width:25%;
     flex-direction: row;
+}
+.menu_style{
+    height:30px;
+    padding-left: 10px;
+   
 }
 
 }
 @media screen and (min-width:0px)  and (max-width:562px)  {
     .side_div{
         flex-direction: column;
-        margin-left: 250px;
+        margin-left: 160px;
         margin-top:1px;
     }
     .h1_style{
@@ -204,6 +208,10 @@
         padding-left: 25px;
         padding-top:10px;
     }
+    .first_div {
+        padding-bottom: 5px;
+        padding-top:2px;
+    }
     .img_style{
         width:10%;
         height:2.5%;
@@ -214,6 +222,8 @@
     }
     .first_div {
        margin-left: 30px;
+       margin-bottom:10px;
+       
     }
     .p_style{
         padding-top: 2px;
@@ -221,12 +231,13 @@
         padding-top:1px;
     }
     .second_div {
-        margin-left: 40px;
+        margin-left: 50px;
+        margin-top:20px;
         height:200px;
+       
     }
     .third_div {
-      margin-left: 40px;
-
+      margin-left: 50px;
       height:200px;
     }
 }
